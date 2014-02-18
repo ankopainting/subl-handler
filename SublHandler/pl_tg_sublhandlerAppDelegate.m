@@ -12,7 +12,7 @@ NSString *defaultPath = @"/Applications/Sublime Text 2.app/Contents/SharedSuppor
 
 @implementation pl_tg_sublhandlerAppDelegate
 
-@synthesize path;
+@synthesize path; 
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
