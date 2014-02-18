@@ -1,7 +1,7 @@
 SublimeText 2 URLHandler on OS X
 =======================
 This is a fork of [asuth/subl-handler](https://github.com/asuth/subl-handler). I moved this application to the Mac status bar, so it is not ocupying Dock now.
-![screenshot of dock item](http://www.tg.pl/subl-handler/screenshot.png "Screenshot")
+![screenshot of dock item](screenshot.png "Screenshot")
 
 
 This application enables SublimeText 2 to open `subl:` urls, as Textmate has as described [here](http://manual.macromates.com/en/using_textmate_from_terminal#url_scheme_html)
