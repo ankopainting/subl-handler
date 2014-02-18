@@ -1,6 +1,7 @@
 SublimeText 2 URLHandler on OS X
 =======================
 This is a fork of [asuth/subl-handler](https://github.com/asuth/subl-handler). I moved this application to the Mac status bar, so it is not ocupying Dock now.
+
 ![screenshot of dock item](screenshot.png "Screenshot")
 
 
@@ -30,8 +31,8 @@ Delete following:
     /Applications/SublHandler.app
     ~/Library/Preferences/pl.tg.SublHandler.plist
 
-Author
-------
+Authors
+-------
 
 * Daisuke Murase :@typester (github, twitter, CPAN, etc..)
 * Scott Wadden (SublimeText 2 port)
