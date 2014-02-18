@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3588052018B3AEBA0008A32E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3588051F18B3AEBA0008A32E /* Cocoa.framework */; };
+		3588052A18B3AEBA0008A32E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3588052818B3AEBA0008A32E /* InfoPlist.strings */; };
+		3588052C18B3AEBA0008A32E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3588052B18B3AEBA0008A32E /* main.m */; };
+		3588053018B3AEBA0008A32E /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 3588052E18B3AEBA0008A32E /* Credits.rtf */; };
+		3588053318B3AEBA0008A32E /* pl_tg_sublhandlerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3588053218B3AEBA0008A32E /* pl_tg_sublhandlerAppDelegate.m */; };
+		3588053618B3AEBA0008A32E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3588053418B3AEBA0008A32E /* MainMenu.xib */; };
+		3588053818B3AEBA0008A32E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3588053718B3AEBA0008A32E /* Images.xcassets */; };
+		3588053F18B3AEBA0008A32E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3588053E18B3AEBA0008A32E /* XCTest.framework */; };
+		3588054018B3AEBA0008A32E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3588051F18B3AEBA0008A32E /* Cocoa.framework */; };
+		3588054818B3AEBA0008A32E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3588054618B3AEBA0008A32E /* InfoPlist.strings */; };
+		3588054A18B3AEBA0008A32E /* SublHandlerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3588054918B3AEBA0008A32E /* SublHandlerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3588054118B3AEBA0008A32E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3588051418B3AEBA0008A32E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3588051B18B3AEBA0008A32E;
+			remoteInfo = SublHandler;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3588051C18B3AEBA0008A32E /* SublHandler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SublHandler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3588051F18B3AEBA0008A32E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		3588052218B3AEBA0008A32E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		3588052318B3AEBA0008A32E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		3588052418B3AEBA0008A32E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3588052718B3AEBA0008A32E /* SublHandler-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SublHandler-Info.plist"; sourceTree = "<group>"; };
+		3588052918B3AEBA0008A32E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3588052B18B3AEBA0008A32E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3588052D18B3AEBA0008A32E /* SublHandler-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SublHandler-Prefix.pch"; sourceTree = "<group>"; };
+		3588052F18B3AEBA0008A32E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		3588053118B3AEBA0008A32E /* pl_tg_sublhandlerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pl_tg_sublhandlerAppDelegate.h; sourceTree = "<group>"; };
+		3588053218B3AEBA0008A32E /* pl_tg_sublhandlerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pl_tg_sublhandlerAppDelegate.m; sourceTree = "<group>"; };
+		3588053518B3AEBA0008A32E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		3588053718B3AEBA0008A32E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3588053D18B3AEBA0008A32E /* SublHandlerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SublHandlerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3588053E18B3AEBA0008A32E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3588054518B3AEBA0008A32E /* SublHandlerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SublHandlerTests-Info.plist"; sourceTree = "<group>"; };
+		3588054718B3AEBA0008A32E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3588054918B3AEBA0008A32E /* SublHandlerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SublHandlerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3588051918B3AEBA0008A32E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3588052018B3AEBA0008A32E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3588053A18B3AEBA0008A32E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3588054018B3AEBA0008A32E /* Cocoa.framework in Frameworks */,
+				3588053F18B3AEBA0008A32E /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3588051318B3AEBA0008A32E = {
+			isa = PBXGroup;
+			children = (
+				3588052518B3AEBA0008A32E /* SublHandler */,
+				3588054318B3AEBA0008A32E /* SublHandlerTests */,
+				3588051E18B3AEBA0008A32E /* Frameworks */,
+				3588051D18B3AEBA0008A32E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3588051D18B3AEBA0008A32E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3588051C18B3AEBA0008A32E /* SublHandler.app */,
+				3588053D18B3AEBA0008A32E /* SublHandlerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3588051E18B3AEBA0008A32E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3588051F18B3AEBA0008A32E /* Cocoa.framework */,
+				3588053E18B3AEBA0008A32E /* XCTest.framework */,
+				3588052118B3AEBA0008A32E /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3588052118B3AEBA0008A32E /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3588052218B3AEBA0008A32E /* AppKit.framework */,
+				3588052318B3AEBA0008A32E /* CoreData.framework */,
+				3588052418B3AEBA0008A32E /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		3588052518B3AEBA0008A32E /* SublHandler */ = {
+			isa = PBXGroup;
+			children = (
+				3588053118B3AEBA0008A32E /* pl_tg_sublhandlerAppDelegate.h */,
+				3588053218B3AEBA0008A32E /* pl_tg_sublhandlerAppDelegate.m */,
+				3588053418B3AEBA0008A32E /* MainMenu.xib */,
+				3588053718B3AEBA0008A32E /* Images.xcassets */,
+				3588052618B3AEBA0008A32E /* Supporting Files */,
+			);
+			path = SublHandler;
+			sourceTree = "<group>";
+		};
+		3588052618B3AEBA0008A32E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3588052718B3AEBA0008A32E /* SublHandler-Info.plist */,
+				3588052818B3AEBA0008A32E /* InfoPlist.strings */,
+				3588052B18B3AEBA0008A32E /* main.m */,
+				3588052D18B3AEBA0008A32E /* SublHandler-Prefix.pch */,
+				3588052E18B3AEBA0008A32E /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3588054318B3AEBA0008A32E /* SublHandlerTests */ = {
+			isa = PBXGroup;
+			children = (
+				3588054918B3AEBA0008A32E /* SublHandlerTests.m */,
+				3588054418B3AEBA0008A32E /* Supporting Files */,
+			);
+			path = SublHandlerTests;
+			sourceTree = "<group>";
+		};
+		3588054418B3AEBA0008A32E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3588054518B3AEBA0008A32E /* SublHandlerTests-Info.plist */,
+				3588054618B3AEBA0008A32E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3588051B18B3AEBA0008A32E /* SublHandler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3588054D18B3AEBA0008A32E /* Build configuration list for PBXNativeTarget "SublHandler" */;
+			buildPhases = (
+				3588051818B3AEBA0008A32E /* Sources */,
+				3588051918B3AEBA0008A32E /* Frameworks */,
+				3588051A18B3AEBA0008A32E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SublHandler;
+			productName = SublHandler;
+			productReference = 3588051C18B3AEBA0008A32E /* SublHandler.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3588053C18B3AEBA0008A32E /* SublHandlerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3588055018B3AEBA0008A32E /* Build configuration list for PBXNativeTarget "SublHandlerTests" */;
+			buildPhases = (
+				3588053918B3AEBA0008A32E /* Sources */,
+				3588053A18B3AEBA0008A32E /* Frameworks */,
+				3588053B18B3AEBA0008A32E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3588054218B3AEBA0008A32E /* PBXTargetDependency */,
+			);
+			name = SublHandlerTests;
+			productName = SublHandlerTests;
+			productReference = 3588053D18B3AEBA0008A32E /* SublHandlerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3588051418B3AEBA0008A32E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = pl.tg.sublhandler;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Tomasz Gryszkiewicz";
+				TargetAttributes = {
+					3588053C18B3AEBA0008A32E = {
+						TestTargetID = 3588051B18B3AEBA0008A32E;
+					};
+				};
+			};
+			buildConfigurationList = 3588051718B3AEBA0008A32E /* Build configuration list for PBXProject "SublHandler" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3588051318B3AEBA0008A32E;
+			productRefGroup = 3588051D18B3AEBA0008A32E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3588051B18B3AEBA0008A32E /* SublHandler */,
+				3588053C18B3AEBA0008A32E /* SublHandlerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3588051A18B3AEBA0008A32E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3588052A18B3AEBA0008A32E /* InfoPlist.strings in Resources */,
+				3588053818B3AEBA0008A32E /* Images.xcassets in Resources */,
+				3588053018B3AEBA0008A32E /* Credits.rtf in Resources */,
+				3588053618B3AEBA0008A32E /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3588053B18B3AEBA0008A32E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3588054818B3AEBA0008A32E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3588051818B3AEBA0008A32E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3588053318B3AEBA0008A32E /* pl_tg_sublhandlerAppDelegate.m in Sources */,
+				3588052C18B3AEBA0008A32E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3588053918B3AEBA0008A32E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3588054A18B3AEBA0008A32E /* SublHandlerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3588054218B3AEBA0008A32E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3588051B18B3AEBA0008A32E /* SublHandler */;
+			targetProxy = 3588054118B3AEBA0008A32E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3588052818B3AEBA0008A32E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3588052918B3AEBA0008A32E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3588052E18B3AEBA0008A32E /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3588052F18B3AEBA0008A32E /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		3588053418B3AEBA0008A32E /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3588053518B3AEBA0008A32E /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		3588054618B3AEBA0008A32E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3588054718B3AEBA0008A32E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3588054B18B3AEBA0008A32E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3588054C18B3AEBA0008A32E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3588054E18B3AEBA0008A32E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SublHandler/SublHandler-Prefix.pch";
+				INFOPLIST_FILE = "SublHandler/SublHandler-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3588054F18B3AEBA0008A32E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SublHandler/SublHandler-Prefix.pch";
+				INFOPLIST_FILE = "SublHandler/SublHandler-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3588055118B3AEBA0008A32E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SublHandler.app/Contents/MacOS/SublHandler";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SublHandler/SublHandler-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SublHandlerTests/SublHandlerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3588055218B3AEBA0008A32E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SublHandler.app/Contents/MacOS/SublHandler";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SublHandler/SublHandler-Prefix.pch";
+				INFOPLIST_FILE = "SublHandlerTests/SublHandlerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3588051718B3AEBA0008A32E /* Build configuration list for PBXProject "SublHandler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3588054B18B3AEBA0008A32E /* Debug */,
+				3588054C18B3AEBA0008A32E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3588054D18B3AEBA0008A32E /* Build configuration list for PBXNativeTarget "SublHandler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3588054E18B3AEBA0008A32E /* Debug */,
+				3588054F18B3AEBA0008A32E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3588055018B3AEBA0008A32E /* Build configuration list for PBXNativeTarget "SublHandlerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3588055118B3AEBA0008A32E /* Debug */,
+				3588055218B3AEBA0008A32E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3588051418B3AEBA0008A32E /* Project object */;
+}
