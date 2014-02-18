@@ -11,7 +11,7 @@ This application enables SublimeText 2 to open `subl:` urls, as Textmate has as 
 
 Installation
 ------------
-Download [latest release](http://www.tg.pl/subl-handler/SublHandler.app.zip).
+Download [latest release](SublHandler.zip).
 
 Unzip it, then launch it. Select `S -> Preferences` from the status menu, then set the path for the subl binary.
 
