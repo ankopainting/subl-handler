@@ -18,6 +18,7 @@
 		3588054018B3AEBA0008A32E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3588051F18B3AEBA0008A32E /* Cocoa.framework */; };
 		3588054818B3AEBA0008A32E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3588054618B3AEBA0008A32E /* InfoPlist.strings */; };
 		3588054A18B3AEBA0008A32E /* SublHandlerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3588054918B3AEBA0008A32E /* SublHandlerTests.m */; };
+		35FC758318B3B4F70084F2DF /* NSURL+L0URLParsing.m in Sources */ = {isa = PBXBuildFile; fileRef = 35FC758218B3B4F70084F2DF /* NSURL+L0URLParsing.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,8 @@
 		3588054518B3AEBA0008A32E /* SublHandlerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SublHandlerTests-Info.plist"; sourceTree = "<group>"; };
 		3588054718B3AEBA0008A32E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3588054918B3AEBA0008A32E /* SublHandlerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SublHandlerTests.m; sourceTree = "<group>"; };
+		35FC758118B3B4F70084F2DF /* NSURL+L0URLParsing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+L0URLParsing.h"; sourceTree = "<group>"; };
+		35FC758218B3B4F70084F2DF /* NSURL+L0URLParsing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+L0URLParsing.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 			children = (
 				3588053118B3AEBA0008A32E /* pl_tg_sublhandlerAppDelegate.h */,
 				3588053218B3AEBA0008A32E /* pl_tg_sublhandlerAppDelegate.m */,
+				35FC758118B3B4F70084F2DF /* NSURL+L0URLParsing.h */,
+				35FC758218B3B4F70084F2DF /* NSURL+L0URLParsing.m */,
 				3588053418B3AEBA0008A32E /* MainMenu.xib */,
 				3588053718B3AEBA0008A32E /* Images.xcassets */,
 				3588052618B3AEBA0008A32E /* Supporting Files */,
@@ -255,6 +260,7 @@
 			files = (
 				3588053318B3AEBA0008A32E /* pl_tg_sublhandlerAppDelegate.m in Sources */,
 				3588052C18B3AEBA0008A32E /* main.m in Sources */,
+				35FC758318B3B4F70084F2DF /* NSURL+L0URLParsing.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -465,6 +471,7 @@
 				3588054F18B3AEBA0008A32E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3588055018B3AEBA0008A32E /* Build configuration list for PBXNativeTarget "SublHandlerTests" */ = {
 			isa = XCConfigurationList;
@@ -473,6 +480,7 @@
 				3588055218B3AEBA0008A32E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
